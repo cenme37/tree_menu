@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{% load menu_tags %}
+
+{% block title %}
+  Список меню
+{% endblock %}
+{% block content %}
+  {% draw_menu 'tree' %}
+{% endblock %}
